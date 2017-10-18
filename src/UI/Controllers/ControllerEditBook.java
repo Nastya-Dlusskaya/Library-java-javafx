@@ -72,8 +72,10 @@ public class ControllerEditBook {
         catch (ClassNotFoundException e) {
             sameFunc.createAlert("error", "Ошибка", "Появилась ошибка", e.toString());
         }
-//sdasdas
-        //dfsfds//
+
+//jijnij
+
+        //jjjji
     }
 
     public void showBack(ActionEvent actionEvent)
