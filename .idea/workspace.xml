@@ -129,8 +129,8 @@
       <file leaf-file-name="ControllerEditBook.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UI/Controllers/ControllerEditBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+            <state relative-caret-position="209">
+              <caret line="74" column="2" lean-forward="false" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -255,7 +255,6 @@
         <option value="$PROJECT_DIR$/src/UI/FXMLs/sampleSearchBook.fxml" />
         <option value="$PROJECT_DIR$/src/UI/FXMLs/sampleEditBook.fxml" />
         <option value="$PROJECT_DIR$/src/UI/Controllers/ControllerAddBook.java" />
-        <option value="$PROJECT_DIR$/src/UI/Controllers/ControllerEditBook.java" />
         <option value="$PROJECT_DIR$/src/UI/Controllers/ControllerLibririan.java" />
         <option value="$PROJECT_DIR$/src/model/queue/queueBase.java" />
         <option value="$PROJECT_DIR$/src/UI/Controllers/ControllerInformationAboutBook.java" />
@@ -266,6 +265,7 @@
         <option value="$PROJECT_DIR$/src/model/bd/BaseManagement.java" />
         <option value="$PROJECT_DIR$/src/model/check/Check.java" />
         <option value="$PROJECT_DIR$/src/model/queue/queueReader.java" />
+        <option value="$PROJECT_DIR$/src/UI/Controllers/ControllerEditBook.java" />
       </list>
     </option>
   </component>
@@ -1022,7 +1022,7 @@
       <workItem from="1508149749100" duration="5126000" />
       <workItem from="1508263485669" duration="5009000" />
       <workItem from="1508306782038" duration="1374000" />
-      <workItem from="1508330211219" duration="648000" />
+      <workItem from="1508330211219" duration="1212000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1">
       <created>1508330802039</created>
@@ -1042,7 +1042,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207141000" />
+    <option name="totallyTimeSpent" value="207705000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1771,8 +1771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/Controllers/ControllerEditBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="71" column="8" lean-forward="false" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+        <state relative-caret-position="209">
+          <caret line="74" column="2" lean-forward="false" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
           <folding />
         </state>
       </provider>
