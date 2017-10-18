@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="412.0" prefWidth="600.0" stylesheets="@../JMetroDarkTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Controllers.ControllerReader">
+
+      <Label layoutX="29.0" layoutY="26.0" text="Фамилия  имя читателя" wrapText="true" />
+      <TableView fx:id="bookTable" layoutX="21.0" layoutY="109.0" prefHeight="200.0" prefWidth="555.0">
+        <columns>
+          <TableColumn fx:id="authorColumn" prefWidth="146.0" text="Автор" />
+          <TableColumn fx:id="nameColumn" minWidth="0.0" prefWidth="191.0" text="Название" />
+            <TableColumn fx:id="getColumn" minWidth="0.0" prefWidth="107.0" text="Дата выдачи" />
+            <TableColumn fx:id="returnColumn" minWidth="0.0" prefWidth="108.0" text="Дата возврата" />
+        </columns>
+      </TableView>
+      <Button layoutX="21.0" layoutY="322.0" mnemonicParsing="false" onAction="#showSearchBook" prefHeight="81.0" prefWidth="140.0" text="Поиск нужной книги" textAlignment="CENTER" wrapText="true" />
+      <Button cancelButton="true" layoutX="220.0" layoutY="339.0" mnemonicParsing="false" onAction="#showBack" prefHeight="33.0" prefWidth="140.0" text="Выйти" />
+      <Button layoutX="437.0" layoutY="321.0" mnemonicParsing="false" onAction="#showReadBook" prefHeight="81.0" prefWidth="140.0" text="Список прочитанной литературы" textAlignment="CENTER" wrapText="true" />
+
+</AnchorPane>

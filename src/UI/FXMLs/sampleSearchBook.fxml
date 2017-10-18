@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="453.0" stylesheets="@../JMetroDarkTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Controllers.ControllerSearchBook">
+   <children>
+      <TextField fx:id="searchAuthor" editable="false" layoutX="259.0" layoutY="72.0" promptText="Введите автора" />
+      <TextField fx:id="searchName" editable="false" layoutX="259.0" layoutY="113.0" promptText="Введите название" />
+      <TableView fx:id="bookTable" layoutX="40.0" layoutY="153.0" prefHeight="169.0" prefWidth="368.0">
+        <columns>
+          <TableColumn fx:id="authorColumn" prefWidth="157.0" text="Автор" />
+          <TableColumn fx:id="nameColumn" prefWidth="209.0" text="Книга" />
+        </columns>
+      </TableView>
+      <Button defaultButton="true" disable="true" layoutX="58.0" layoutY="345.0" mnemonicParsing="false" onAction="#searchBook" text="Поиск" />
+      <Button cancelButton="true" layoutX="306.0" layoutY="345.0" mnemonicParsing="false" onAction="#showBack" text="Назад" />
+      <Label layoutX="40.0" layoutY="76.0" text="Введите автора" />
+      <Label layoutX="40.0" layoutY="117.0" text="Введите название" />
+      <Label layoutX="76.0" layoutY="22.0" prefHeight="42.0" prefWidth="332.0" text="Для поиска необходимо ввести автора или название" wrapText="true" />
+   </children>
+</AnchorPane>

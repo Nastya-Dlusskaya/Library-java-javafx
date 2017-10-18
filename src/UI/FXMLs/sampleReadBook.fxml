@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="593.0" stylesheets="@../JMetroDarkTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Controllers.ControllerReadBook">
+   <children>
+      <TableView fx:id="bookTable" layoutX="30.0" layoutY="23.0" prefHeight="323.0" prefWidth="535.0">
+        <columns>
+          <TableColumn fx:id="authorColumn" prefWidth="157.0" text="Автор" />
+          <TableColumn fx:id="nameColumn" prefWidth="182.0" text="Название" />
+            <TableColumn fx:id="getColumn" prefWidth="95.0" text="Дата выдачи" />
+            <TableColumn fx:id="returnColumn" prefWidth="99.0" text="Дата возврата" />
+        </columns>
+      </TableView>
+      <Button cancelButton="true" layoutX="240.0" layoutY="361.0" mnemonicParsing="false" onAction="#showBack" text="Назад" />
+   </children>
+</AnchorPane>

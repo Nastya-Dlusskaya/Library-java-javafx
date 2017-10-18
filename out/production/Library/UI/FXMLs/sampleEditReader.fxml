@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="597.0" stylesheets="@../JMetroDarkTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Controllers.ControllerEditReader">
+   <children>
+      <Label layoutX="292.0" layoutY="278.0" text="Номер паспорта" />
+      <Label layoutX="24.0" layoutY="35.0" text="Фамилия" />
+      <Label layoutX="284.0" layoutY="35.0" text="Имя" />
+      <Label layoutX="24.0" layoutY="78.0" text="Отчество" />
+      <Label layoutX="284.0" layoutY="78.0" text="Дата рождения" />
+      <Label layoutX="25.0" layoutY="126.0" text="Область" />
+      <Label layoutX="287.0" layoutY="126.0" text="Район" />
+      <Label layoutX="27.0" layoutY="174.0" text="Город" />
+      <Label layoutX="287.0" layoutY="174.0" text="Улица" />
+      <Label layoutX="27.0" layoutY="225.0" text="Дом" />
+      <Label layoutX="286.0" layoutY="225.0" text="Квартира" />
+      <Label layoutX="27.0" layoutY="278.0" text="Телефон" />
+      <TextField fx:id="lastnameEdit" layoutX="109.0" layoutY="31.0" promptText="Введите фамилию" />
+      <TextField fx:id="firstname" layoutX="395.0" layoutY="31.0" prefHeight="25.0" prefWidth="155.0" promptText="Введите имя" />
+      <TextField fx:id="patronymicEdit" layoutX="109.0" layoutY="74.0" promptText="Введите отчество" />
+      <DatePicker layoutX="395.0" layoutY="74.0" prefHeight="29.0" prefWidth="182.0" promptText="Выберите дату" />
+      <TextField fx:id="regionEdit" layoutX="109.0" layoutY="122.0" promptText="Введите область" />
+      <TextField fx:id="areaEdit" layoutX="395.0" layoutY="122.0" prefHeight="25.0" prefWidth="155.0" promptText="Введите район" />
+      <TextField fx:id="cityEdit" layoutX="109.0" layoutY="170.0" promptText="Введите город" />
+      <TextField fx:id="streetEdit" layoutX="395.0" layoutY="170.0" prefHeight="25.0" prefWidth="155.0" promptText="Введите улицу" />
+      <TextField fx:id="homeEdit" layoutX="109.0" layoutY="221.0" promptText="Введите дом" />
+      <TextField fx:id="flatEdit" layoutX="395.0" layoutY="221.0" prefHeight="25.0" prefWidth="155.0" promptText="Введите квартиру" />
+      <TextField fx:id="phoneEdit" layoutX="109.0" layoutY="274.0" promptText="Введите телефон" />
+      <TextField fx:id="passportEdit" layoutX="395.0" layoutY="274.0" prefHeight="25.0" prefWidth="155.0" promptText="Введите номер паспорта" />
+      <Button defaultButton="true" layoutX="131.0" layoutY="341.0" mnemonicParsing="false" onAction="#editReader" stylesheets="@../JMetroDarkTheme.css" text="Сохранить" />
+      <Button cancelButton="true" layoutX="329.0" layoutY="341.0" mnemonicParsing="false" onAction="#showBack" prefHeight="33.0" prefWidth="119.0" stylesheets="@../JMetroDarkTheme.css" text="Назад" />
+   </children>
+</AnchorPane>
