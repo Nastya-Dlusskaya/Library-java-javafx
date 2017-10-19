@@ -21,15 +21,15 @@
   <tabs>
     <Tab text="Читатель">
       <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" stylesheets="@../JMetroDarkTheme.css">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" stylesheets="@../jfoenix-design.css">
           <children>
-            <Label layoutX="145.0" layoutY="37.0" stylesheets="@../JMetroDarkTheme.css" text="Логин" />
-            <TextField fx:id="readerLogin" layoutX="215.0" layoutY="33.0" promptText="Введите логин" stylesheets="@../JMetroDarkTheme.css" />
-            <Button cancelButton="true" defaultButton="true" layoutX="146.0" layoutY="121.0" mnemonicParsing="false" onAction="#showDialog" prefHeight="25.0" prefWidth="109.0" stylesheets="@../style.css" text="Вход">
+            <Label layoutX="145.0" layoutY="37.0" stylesheets="@../jfoenix-design.css" text="Логин" />
+            <TextField fx:id="readerLogin" layoutX="215.0" layoutY="33.0" promptText="Введите логин" stylesheets="@../jfoenix-design.css" />
+            <Button cancelButton="true" defaultButton="true" layoutX="146.0" layoutY="121.0" mnemonicParsing="false" onAction="#showDialog" prefHeight="25.0" prefWidth="109.0" stylesheets="@../../../../../Library-java-javafx/src/UI/docs.css" text="Вход">
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-            <Label layoutX="146.0" layoutY="76.0" stylesheets="@../JMetroDarkTheme.css" text="Пароль" />
+            <Label layoutX="146.0" layoutY="76.0" stylesheets="@../jfoenix-design.css" text="Пароль" />
             <ImageView fitHeight="84.0" fitWidth="92.0" layoutX="26.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../files/959c1ee6fb41883031ffb7a3eff4e80c.png" />

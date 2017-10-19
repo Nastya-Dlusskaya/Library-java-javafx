@@ -8,6 +8,7 @@ import javafx.scene.Node;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.input.MouseEvent;
 import model.bd.BaseManagement;
 import model.entity.Base;
 import model.queue.queueBase;
@@ -41,8 +42,8 @@ public class ControllerInformationAboutBook {
     private void initialize()
     {
         initList();
-        bookColumn.setCellValueFactory(new PropertyValueFactory<Base, String>("reader"));
-        nameColumn.setCellValueFactory(new PropertyValueFactory<Base, String>("book"));
+        bookColumn.setCellValueFactory(new PropertyValueFactory<Base, String>("book"));
+        nameColumn.setCellValueFactory(new PropertyValueFactory<Base, String>("reader"));
         getColumn.setCellValueFactory(new PropertyValueFactory<Base, Date>("getBook"));
         returnColumn.setCellValueFactory(new PropertyValueFactory<Base, Date>("returnBook"));
         bookTable.setItems(list);

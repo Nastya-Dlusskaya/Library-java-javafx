@@ -31,13 +31,11 @@ public class Check {
     {
         boolean answer = true;
         if(str.length() > size)
-        {
             answer = false;
-        }
         return answer;
     }
 
-    public static boolean checkLoginAndPasswordReader(String login, String password) throws SQLException, ClassNotFoundException {
+    public static boolean checkLoginAndPasswordReader(String login, String password) throws Exception {
         boolean answer = false;
         String queue = queueReader.readerLogin(login, password);
         if(queueReader.makeQueue(queue) == ""){

@@ -73,9 +73,6 @@ public class ControllerEditBook {
             sameFunc.createAlert("error", "Ошибка", "Появилась ошибка", e.toString());
         }
 
-//jijnij
-
-        //jjjji
     }
 
     public void showBack(ActionEvent actionEvent)

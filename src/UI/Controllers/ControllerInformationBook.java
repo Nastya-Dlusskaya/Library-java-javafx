@@ -10,6 +10,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
+import javafx.scene.control.TextArea;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import model.entity.Book;
@@ -29,10 +31,20 @@ public class ControllerInformationBook {
     private Button editButton;
 
     @FXML
+    private TextArea textBook;
+
+    @FXML
     private void initialize() throws SQLException, ClassNotFoundException {
         String queue = queueBook.allBook();
         list = (ObservableList<Book>) queueReader.makeQueueReturn( queue);
         readersList.setItems(list);
+    }
+
+    public void chooseBook(MouseEvent event)
+    {
+        editButton.setDisable(false);
+        Reader focusedItem = (Reader) readersList.getSelectionModel().getSelectedItem();
+        textBook.setPromptText(focusedItem.fullString());
     }
 
     public void showEditBook(ActionEvent actionEvent)
